@@ -8,4 +8,4 @@ steps:
     execute: test.py
   - name: New Step
     execute: test.sql
-    database: demo
+    database: demo4444
