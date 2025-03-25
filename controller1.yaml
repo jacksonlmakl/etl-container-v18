@@ -1,5 +1,8 @@
-schedule: "* * * * *"  # Run Every Minute
+schedule: '* * * * *'
 s3:
-  - name: ""
-  - access_key: ""
-  - secret_key: ""
+  - name: ''
+  - access_key: ''
+  - secret_key: ''
+steps:
+  - name: Step 2
+    execute: test2.py
