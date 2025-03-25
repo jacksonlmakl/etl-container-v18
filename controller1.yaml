@@ -6,3 +6,6 @@ s3:
 steps:
   - name: Step 2
     execute: test2.py
+  - name: New Step
+    execute: test.sql
+    database: demo2
